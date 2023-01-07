@@ -1,0 +1,64 @@
+/* SINGLE-BTN  */
+
+.btn-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 2rem;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  z-index: 99;
+  
+  margin-left: 20px;
+
+  background: var(--primary-color) ;
+  border-radius: 50px;
+  padding: 5px 30px;
+}
+
+.btn-single span {
+  margin-right: 20px;
+}
+
+.btn-single:hover {
+  color: var(--btn-col);
+}
+
+/* DOUBLE BTN */
+
+.two {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.two .btn-double {
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-family: var(--primary-font);
+
+  margin: 0 50px;
+
+  background: var(--primary-color);
+  border-radius: 50px;
+  padding: 5px 30px;
+}
+
+.two .btn-double span {
+  margin: 0 10px;
+}
+
+.two 
+.btn-double:hover {
+  color: var(--btn-col);
+  transition: all .3s;
+}
